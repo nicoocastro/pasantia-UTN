@@ -1,0 +1,32 @@
+/* formulario */
+.form-title {
+    padding: $spacer-5;
+    color: $color-font-primary;
+    text-align: center;
+    text-shadow: 5px 5px 2px $color-shadows-primary;
+
+    /* animación */
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+.form-section {
+    text-align: center;
+    background-color: $color-bg-second;
+    padding: $spacer-5;
+}
+
+/* Seccion de Preguntas */
+.questions {
+    padding: $spacer-5;
+    color: $color-font-primary;
+    text-shadow: 5px 5px 2px $color-shadows-primary;
+}
+
+.questions h2 {
+    text-align: center;
+}
+
+.questions p {
+    margin-top: $spacer-1;
+}

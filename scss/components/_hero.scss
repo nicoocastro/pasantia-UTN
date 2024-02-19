@@ -1,0 +1,22 @@
+//seccion hero
+.hero {
+    text-align: center;
+    color: $color-font-primary;
+    text-shadow: 5px 5px 2px $color-shadows-primary;
+
+    /* animación */
+    animation-duration: 1.5s;
+    animation-name: slidein;
+
+    h1{
+        margin-bottom: $spacer-3;
+        font-size: $font-size-4;
+        color: $color-font-primary;
+        font-family: $font-main;
+    }
+    p {
+        color: $color-font-primary;
+        font-family: $font-second;
+        letter-spacing: 2px;
+    }
+}

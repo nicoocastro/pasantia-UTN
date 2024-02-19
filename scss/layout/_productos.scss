@@ -1,0 +1,33 @@
+/* Pagina de Producto */
+.products-title {
+    padding: $spacer-5;
+    color: $color-font-primary;
+    text-align: center; 
+    text-shadow: 5px 5px 2px $color-shadows-primary;
+
+    /* animación */
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+.products-title h1 {
+    margin-bottom: $spacer-2;
+}
+
+.products-section {
+    background-color: $color-bg-second;
+}
+
+.products-section__list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: $spacer-2;
+    padding: $spacer-1;
+    justify-items: center;
+    text-align: center;
+}
+
+.products-section__option {
+    text-align: center;
+    padding-top: $spacer-2;
+}

@@ -1,0 +1,109 @@
+/* ---------- media query tablet --------- */
+
+@media only screen and (max-width:1024px) {
+
+/* seccion de ofertas */
+    .product-section {
+        .product-section__offers {
+            grid-template-columns: repeat(2, 1fr);
+            gap: $spacer-3 0;
+        }
+    } 
+    .products-title {
+        padding: $spacer-2;
+    }
+
+/* sección de categorias */
+    .category-product {
+        flex-direction: column;
+        gap: $spacer-3;
+        align-items: center;
+    }
+
+/* sección de productos */
+.products-section__list {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* sección de formulario */
+.form-section {
+    padding: $spacer-3;
+}
+}
+
+/* ----------- media query mobile ----------*/
+
+@media only screen and (max-width:480px) {
+
+.hero {
+    h1 {
+        font-size: $font-size-2;
+    }
+}
+/* seccion de ofertas */
+.product-section {
+    .product-section__offers {
+        grid-template-columns: repeat(1, 1fr);
+        gap: $spacer-3 0;
+    }
+} 
+.products-title {
+    padding: $spacer-2;
+}
+
+/* sección de categorias */
+.featured-product {
+    padding: $spacer-1;
+    h2 {
+        font-size: $font-size-2;
+    }
+    .category-product {
+        flex-direction: column;
+        gap: $spacer-3;
+        align-items: center;
+    }
+}
+
+/* sección de menu */
+a.navbar-brand {
+    font-size: 13px;
+    text-align: center;
+}
+
+/* seccion de hero */
+.hero {
+    padding: $spacer-2;
+}
+
+/* sección de productos */
+.products-section__list {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}   
+
+/* sección de formulario */
+.form-section {
+    padding: $spacer-1;
+}
+
+/* sección de preguntas */
+.questions {
+    padding: $spacer-2;
+}
+
+/* sección de footer */
+.footer {
+    padding: $spacer-0;
+
+    .footer-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: $spacer-1;
+        .footer-section__rrss {
+            flex-direction: initial;
+            justify-content: space-around;
+        }
+    }
+}
+
+}

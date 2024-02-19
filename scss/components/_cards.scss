@@ -1,0 +1,17 @@
+/* card de productos */
+.card-hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @extend %card-body;
+    img {
+       @extend %card-image;
+    }
+    &:hover{
+        transform: scale(1.1);
+        transition: 250ms;
+        background-color: $color-bg-thrid;
+        color: $color-font-second;
+    }
+}
+
