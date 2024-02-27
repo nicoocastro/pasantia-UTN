@@ -277,3 +277,18 @@ main {
   to {
     margin-left: 0%;
     width: 100%; } }
+
+    /* Estilos específicos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+  }
+  .nav-link {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd; /* Línea separadora entre los botones */
+  }
+  .nav-link:last-child {
+      border-bottom: none; /* No mostrar línea separadora en el último botón */
+  }
+}
